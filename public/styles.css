@@ -1,0 +1,61 @@
+*{
+     margin: 0;
+     padding: 0;
+}
+
+body {
+     width: 100vw;
+     height: 100vh;
+     background-color: #d7e5ff;
+     display: flex;
+     justify-content: center;
+     align-items: center; 
+}
+
+.container {
+     background-color: #4c76fd;
+     height: 600px;
+     width: 80%;
+     margin: 0 auto;
+     border-radius: 5px;
+     display: flex;
+     justify-content: space-evenly;
+     align-items: center;
+}
+
+.table-container {
+     background-color: bisque;
+     width: 40%;
+     height: 80%; 
+   
+}
+ 
+ table {
+     margin: 15px;
+     width: 90%; 
+     border-collapse: collapse; /* Combina los bordes de las celdas */
+ }
+ 
+ th, td {
+     border: 1px solid #ddd; /* Establece un borde ligero para las celdas */
+     padding: 8px; /* Espaciado interno en las celdas */
+     text-align: left; /* Alinea el texto a la izquierda */
+ }
+ 
+ th {
+     background-color: #4c76fd; /* Color de fondo para los encabezados */
+ }
+ 
+
+.form-container {
+     background-color: lightslategray;
+     border-radius: 5px;
+     width: 40%;
+     height: 80%;
+     display: flex;
+     justify-content: space-evenly;
+     flex-direction: column;
+     align-items: center; 
+}
+
+
